@@ -28,8 +28,5 @@ matrix:
   exclude:
     - gemfile: Gemfile.mongo_mapper
       env: DB=postgresql
-branches:
-  only:
-    - master
 notifications:
   email: false
