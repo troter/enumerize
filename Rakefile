@@ -6,7 +6,7 @@ require 'rspec/core/rake_task'
 
 Rake::TestTask.new do |t|
   t.libs << 'test'
-  t.pattern = 'test/*_test.rb'
+  t.pattern = 'test/activerecord_test.rb'
   t.verbose = true
 end
 
